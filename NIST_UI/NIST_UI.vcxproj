@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{416711E7-63D9-4B9E-B7E8-C2DC1E239E60}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>NIST_UI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Xdcmake>
+      <AdditionalDocumentFile>/Fs[C:\Users\Александр\Desktop\NIST_UI\NIST_UI\help\nist_hlp_ru-RU.chm];%(AdditionalDocumentFile)</AdditionalDocumentFile>
+    </Xdcmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="txtReportInExcel">
+      <HintPath>..\txtInExcel\txtReportInExcel\bin\Debug\txtReportInExcel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sourse_nist\approximateEntropy.cpp" />
+    <ClCompile Include="..\sourse_nist\assess.cpp" />
+    <ClCompile Include="..\sourse_nist\blockFrequency.cpp" />
+    <ClCompile Include="..\sourse_nist\cephes.cpp" />
+    <ClCompile Include="..\sourse_nist\cusum.cpp" />
+    <ClCompile Include="..\sourse_nist\dfft.cpp" />
+    <ClCompile Include="..\sourse_nist\discreteFourierTransform.cpp" />
+    <ClCompile Include="..\sourse_nist\erf.cpp" />
+    <ClCompile Include="..\sourse_nist\frequency.cpp" />
+    <ClCompile Include="..\sourse_nist\generators.cpp" />
+    <ClCompile Include="..\sourse_nist\genutils.cpp" />
+    <ClCompile Include="..\sourse_nist\linearComplexity.cpp" />
+    <ClCompile Include="..\sourse_nist\longestRunOfOnes.cpp" />
+    <ClCompile Include="..\sourse_nist\matrix.cpp" />
+    <ClCompile Include="..\sourse_nist\nonOverlappingTemplateMatchings.cpp" />
+    <ClCompile Include="..\sourse_nist\overlappingTemplateMatchings.cpp" />
+    <ClCompile Include="..\sourse_nist\randomExcursions.cpp" />
+    <ClCompile Include="..\sourse_nist\randomExcursionsVariant.cpp" />
+    <ClCompile Include="..\sourse_nist\rank.cpp" />
+    <ClCompile Include="..\sourse_nist\runs.cpp" />
+    <ClCompile Include="..\sourse_nist\serial.cpp" />
+    <ClCompile Include="..\sourse_nist\universal.cpp" />
+    <ClCompile Include="..\sourse_nist\utilities.cpp" />
+    <ClCompile Include="FormAboutNIST.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sourse_nist\include\cephes.h" />
+    <ClInclude Include="..\sourse_nist\include\config.h" />
+    <ClInclude Include="..\sourse_nist\include\decls.h" />
+    <ClInclude Include="..\sourse_nist\include\defs.h" />
+    <ClInclude Include="..\sourse_nist\include\erf.h" />
+    <ClInclude Include="..\sourse_nist\include\externs.h" />
+    <ClInclude Include="..\sourse_nist\include\generators.h" />
+    <ClInclude Include="..\sourse_nist\include\genutils.h" />
+    <ClInclude Include="..\sourse_nist\include\matrix.h" />
+    <ClInclude Include="..\sourse_nist\include\stat_fncs.h" />
+    <ClInclude Include="..\sourse_nist\include\utilities.h" />
+    <ClInclude Include="assess.h" />
+    <ClInclude Include="FormAboutNIST.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="en-US.resx" />
+    <EmbeddedResource Include="FormAboutNIST.resx">
+      <DependentUpon>FormAboutNIST.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.en-US.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.ru-RU.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.uk-UA.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ru-RU.resx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uk-UA.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NIST_UI.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

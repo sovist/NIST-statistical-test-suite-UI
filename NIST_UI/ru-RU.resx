@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonOpenInExcelOpeninMSExcel" xml:space="preserve">
+    <value>Открыть в MS Excel</value>
+  </data>
+  <data name="buttonOpenInExcelWait" xml:space="preserve">
+    <value>Подождите...</value>
+  </data>
+  <data name="buttonOptionsClose" xml:space="preserve">
+    <value>Опции &lt;&lt;</value>
+  </data>
+  <data name="buttonOptionsOpen" xml:space="preserve">
+    <value>Опции &gt;&gt;</value>
+  </data>
+  <data name="SelectInputFile" xml:space="preserve">
+    <value>Пожалуйста, укажите входной файл</value>
+  </data>
+  <data name="SelectTest" xml:space="preserve">
+    <value>Пожалуйста, укажите один из тестов</value>
+  </data>
+  <data name="TestsIsdone" xml:space="preserve">
+    <value>Тестирование завершено!
+Затрачено времени:</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Общая длина последовательности: </value>
+  </data>
+  <data name="MinFileSize" xml:space="preserve">
+    <value>Минимальна длина общей (входной) последовательности:</value>
+  </data>
+  <data name="ReadFormatASCII" xml:space="preserve">
+    <value>Текстовый</value>
+  </data>
+  <data name="ReadFormatBinary" xml:space="preserve">
+    <value>Двоичный</value>
+  </data>
+  <data name="ExploreStream" xml:space="preserve">
+    <value>Исследуемая последовательность: </value>
+  </data>
+  <data name="BlockLengthForTest" xml:space="preserve">
+    <value>Длина блока для теста</value>
+  </data>
+  <data name="ErrorMinimumLength" xml:space="preserve">
+    <value>Длина указанной последовательности для 
+тестирования больше чем входной файл.
+
+Как исправить:
+- Выбрать больший файл
+- Уменьшить длину последовательности для тестирования</value>
+  </data>
+  <data name="toolTipbuttonFileOfAnalysis" xml:space="preserve">
+    <value>Открыть файл анализа</value>
+  </data>
+  <data name="toolTipbuttonOpenDirectoryOfExperiments" xml:space="preserve">
+    <value>Открыть папку тестов</value>
+  </data>
+  <data name="toolTipbuttonOpenInExcel" xml:space="preserve">
+    <value>Открыть файл анализа в MS Excel</value>
+  </data>
+  <data name="toolTipbuttonOptions" xml:space="preserve">
+    <value>Показать / Скрыть опции</value>
+  </data>
+  <data name="toolTipbuttonSelectFile" xml:space="preserve">
+    <value>Указать входной файл</value>
+  </data>
+  <data name="toolTipbuttonTest" xml:space="preserve">
+    <value>Начать тестирование</value>
+  </data>
+  <data name="toolTipbuttonTestStop" xml:space="preserve">
+    <value>Остановить тестирование</value>
+  </data>
+  <data name="toolTipcheckBoxSelectAll" xml:space="preserve">
+    <value>Выбрать все тесты</value>
+  </data>
+  <data name="toolTipcomboBoxReadFormat" xml:space="preserve">
+    <value>Двоичный -  каждый байт в файле состоит из 8-ми бит данных.
+Текстовый - Последовательность с 1 и 0 таблицы ASCII.</value>
+  </data>
+  <data name="toolTiplabelFileSize" xml:space="preserve">
+    <value>Если эта надпись выделен красным - длина 
+указанной последовательности для тестирования больше чем входной файл.
+
+Как исправить:
+- Выбрать больший файл
+- Уменьшить длину последовательности для тестирования</value>
+  </data>
+  <data name="toolTipprogressBar1" xml:space="preserve">
+    <value>Прогресс тестирования</value>
+  </data>
+  <data name="toolTipradioButtonInputFile" xml:space="preserve">
+    <value>В качестве генератора выбрать входной файл</value>
+  </data>
+  <data name="toolTiptextBoxBitStream" xml:space="preserve">
+    <value>Количество последовательностей</value>
+  </data>
+  <data name="toolTiptextBoxN" xml:space="preserve">
+    <value>Длина одной последовательности</value>
+  </data>
+  <data name="toolTiptoolStripDropDownButton1" xml:space="preserve">
+    <value>Изменить язык</value>
+  </data>
+</root>

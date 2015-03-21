@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\nist">
+      <UniqueIdentifier>{85064b95-5eae-4c77-bbe1-014343efbd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\approximateEntropy.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\assess.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\blockFrequency.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\cephes.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\cusum.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\dfft.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\discreteFourierTransform.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\erf.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\frequency.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\generators.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\genutils.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\linearComplexity.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\longestRunOfOnes.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\matrix.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\nonOverlappingTemplateMatchings.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\overlappingTemplateMatchings.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\randomExcursions.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\randomExcursionsVariant.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\rank.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\runs.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\serial.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\universal.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sourse_nist\utilities.cpp">
+      <Filter>Source Files\nist</Filter>
+    </ClCompile>
+    <ClCompile Include="FormAboutNIST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\cephes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\decls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\erf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\externs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\genutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\stat_fncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sourse_nist\include\utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormAboutNIST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.en-US.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.ru-RU.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.uk-UA.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="en-US.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uk-UA.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ru-RU.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAboutNIST.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NIST_UI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
