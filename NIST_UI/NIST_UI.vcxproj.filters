@@ -166,6 +166,9 @@
     <EmbeddedResource Include="FormAboutNIST.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.uk.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Icon.ico">
